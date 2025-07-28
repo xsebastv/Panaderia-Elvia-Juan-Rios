@@ -1,0 +1,211 @@
+/* Imagen centrada de Elvia */
+.elvia-img {
+    display: block;
+    margin: 0 auto 1em auto;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #e2b77c55;
+    background: #fffbe6;
+    border: 2px solid #e2b77c;
+}
+/* Selector de etiqueta */
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #e0e7ff 0%, #f8fafc 100%);
+  color: #222;
+}
+
+/* Selector de ID */
+/* El header principal ya está estilizado con .header y .logo-container */
+
+/* Selector de clase */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  gap: 2em;
+}
+
+/* Mejora de tarjetas */
+.card {
+  background: linear-gradient(120deg, #fff 60%, #ffd9a4 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(221, 198, 123, 0.795);
+  flex: 1 1 0;
+  min-width: 220px;
+  max-width: 320px;
+  margin: 0 1em 2em 0; /* px y em */
+  padding: 2em 1em 1em 3%; /* em y % */
+  transition: box-shadow 0.3s, transform 0.3s;
+  border: 1px solid #e0e7ff;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(228, 195, 105, 0.733);
+  transform: translateY(-6px) scale(1.03);
+}
+#card2 {
+  border: 2px solid #e2b77c;
+}
+.card h2 {
+  margin-bottom: 0.5em;
+  color: #e2b77c;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card img {
+  box-shadow: 0 2px 12px rgba(240, 207, 99, 0.575);
+  margin-bottom: 1em;
+  transition: filter 0.3s;
+}
+.card:hover img {
+  filter: brightness(1.08) saturate(1.2);
+}
+
+/* Footer elegante */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(120deg, #222 60%, #e2b77c 100%);
+    color: #fff;
+    padding: 2em 5%;
+    box-shadow: 0 -2px 16px rgba(250, 219, 119, 0.514);
+}
+.contact-info, .quick-links {
+    flex: 1 1 200px;
+    margin-bottom: 1em;
+}
+.contact-info h3, .quick-links h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.7em;
+    color: #d3b656;
+    letter-spacing: 1px;
+}
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+.quick-links li {
+    margin-bottom: 0.5em;
+}
+.quick-links a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.quick-links a:hover {
+    color: #d3b656;
+}
+.copyright {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+    opacity: 0.7;
+    border-top: 1px solid #444;
+    padding-top: 1em;
+}
+/* Flexbox para header */
+/* Header refinado */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #222 60%, #d3a668 200%);
+    color: #fff;
+    padding: 2em 0 1.5em 0;
+    box-shadow: 0 2px 16px rgba(80,80,160,0.10);
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.logo {
+    width: 56px;
+    height: 56px;
+    filter: drop-shadow(0 2px 8px #040608);
+}
+.site-title {
+    font-size: 2.7em;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 3px 12px #4a2c0a, 0 1px 0 #fff2e0;
+    font-family: 'Pacifico', 'Brush Script MT', cursive, 'Segoe Script', sans-serif;
+    border-radius: 12px;
+    padding: 0.2em 0.7em;
+    box-shadow: 0 2px 12px #d49c4ca1;
+    border: 2px solid #e2b77c;
+}
+
+/* Flexbox para main */
+/* Main refinado */
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 3em 5% 2em 5%;
+    background: transparent;
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    flex: 1 1 0;
+    min-width: 220px;
+    max-width: 300px;
+    margin: 0 1em 2em 0; /* px y em */
+    padding: 2em 1em 1em 3%; /* em y % */
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+#card2 {
+    border: 2px solid #d3b656;
+}
+.card h2 {
+    margin-bottom: 0.5em;
+    color: #d3b656;
+}
+
+/* Flexbox para footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #222;
+    color: #fff;
+    padding: 2em 5%;
+}
+.contact-info, .quick-links {
+    flex: 1 1 200px;
+    margin-bottom: 1em;
+}
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+.quick-links li {
+    margin-bottom: 0.5em;
+}
+.quick-links a {
+    color: #fff;
+    text-decoration: underline;
+}
+.copyright {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
