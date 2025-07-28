@@ -1,3 +1,29 @@
+.whatsapp-btn {
+    background: linear-gradient(90deg, #25d366 60%, #128c7e 100%);
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    padding: 0.5em 1.2em;
+    text-decoration: none !important;
+    box-shadow: 0 2px 8px #25d36655;
+    font-size: 1em;
+    transition: background 0.2s, box-shadow 0.2s;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+.whatsapp-btn:hover {
+    background: linear-gradient(90deg, #128c7eb6 60%, #25d3658a 100%);
+    box-shadow: 0 4px 16px #128c7e55;
+}
+.precio {
+    color: #d3b656;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 0.5em;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 6px #fffbe6;
+}
 /* Imagen centrada de Elvia */
 .elvia-img {
     display: block;
